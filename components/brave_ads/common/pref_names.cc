@@ -30,6 +30,12 @@ const char kSupportedCountryCodesSchemaVersion[] =
     "brave.brave_ads.supported_regions_schema_version_number";
 const int kSupportedCountryCodesSchemaVersionNumber = 9;
 
+// Stores the last origin of the ad notification
+const char kAdNotificationOriginX[] =
+    "brave.brave_ads.ad_notification.origin_x";
+const char kAdNotificationOriginY[] =
+    "brave.brave_ads.ad_notification.origin_y";
+
 // Stores the preferences version number
 const char kVersion[] = "brave.brave_ads.prefs.version";
 

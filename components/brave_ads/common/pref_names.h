@@ -21,6 +21,9 @@ extern const char kSupportedCountryCodesLastSchemaVersion[];
 extern const char kSupportedCountryCodesSchemaVersion[];
 extern const int kSupportedCountryCodesSchemaVersionNumber;
 
+extern const char kAdNotificationOriginX[];
+extern const char kAdNotificationOriginY[];
+
 extern const char kVersion[];
 extern const int kCurrentVersionNumber;
 

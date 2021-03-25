@@ -41,6 +41,9 @@ void AdsService::RegisterProfilePrefs(
 
   registry->RegisterBooleanPref(ads::prefs::kEnabled, false);
 
+  registry->RegisterIntegerPref(prefs::kAdNotificationOriginX, 0);
+  registry->RegisterIntegerPref(prefs::kAdNotificationOriginY, 0);
+
   registry->RegisterBooleanPref(ads::prefs::kShouldAllowConversionTracking,
                                 true);
 

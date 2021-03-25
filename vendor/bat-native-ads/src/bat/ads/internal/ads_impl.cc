@@ -115,7 +115,7 @@ void AdsImpl::Shutdown(ShutdownCallback callback) {
     return;
   }
 
-  ad_notifications_->RemoveAll(true);
+  ad_notifications_->CloseAndRemoveAll();
 
   callback(SUCCESS);
 }
